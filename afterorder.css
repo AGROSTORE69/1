@@ -1,0 +1,89 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url("https://i.postimg.cc/5yRW4bsT/lukas-blazek-EWDv-HNNf-Um-Q-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transform: translateZ(0);
+  transition: transform 0.3s ease-out, box-shadow 0.3s ease-out;
+}
+
+.container:hover {
+  transform: translate3d(0, -5px, 0);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  font-size: 32px;
+  color: #333;
+  margin-top: 0;
+  text-align: center;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.button {
+  display: inline-block;
+  padding: 12px 28px;
+  font-size: 18px;
+  background-color: #4caf50;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #45a049;
+}
+
+.button.secondary {
+  background-color: #e0e0e0;
+  color: #333;
+}
+
+.button.secondary:hover {
+  background-color: #ccc;
+}
+
+.button-container {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.feature-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.feature-icon {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.feature-text {
+  font-size: 18px;
+  color: #333;
+}

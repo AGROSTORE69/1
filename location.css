@@ -1,0 +1,85 @@
+
+        body {
+            background-image: url('path/to/your/image.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding: 20px;
+        }
+        body h1{
+          margin-left: 250px;
+          margin-bottom: 40px;
+        }
+
+        .card {
+            border-radius: 10px;
+        }
+
+        .card-header {
+            background-color: #ffffff;
+            border-bottom: none;
+        }
+
+        .card-body {
+            padding: 20px;
+        }
+
+        .form-label {
+            color: #000000;
+            font-weight: bold;
+        }
+
+        .form-control {
+            border-radius: 5px;
+        }
+
+        .btn-primary {
+            background-color: #007bff;
+            border-color: #007bff;
+        }
+
+        .btn-primary:hover {
+            background-color: #0069d9;
+            border-color: #0062cc;
+        }
+
+        .map-container {
+            position: relative;
+            overflow: hidden;
+            padding-top: 75%; /* adjust the aspect ratio based on your map's height */
+        }
+
+        .map-container iframe {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 2000px;
+            height: 4000px;
+            border: 0;
+            border-radius: 10px;
+        }
+
+        /* Custom styles for layout */
+        .row.address-details {
+            align-items: flex-start;
+        }
+
+        .col-address {
+            flex: 0 0 50%;
+        }
+
+        .col-map {
+            flex: 0 0 50%;
+        }
+
+        @media (max-width: 767px) {
+            .row.address-details {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .col-address, .col-map {
+                flex: 0 0 100%;
+            }
+        }
+    
