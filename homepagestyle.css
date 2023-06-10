@@ -300,6 +300,13 @@ ul{
     width: 100%;
 }
 }
-
+@media(max-width: 574px){
+  .top-2{
+    display: inline;
+  }
+  .top-2-right{
+    padding-left: 20px;
+  }
+}
 
 
